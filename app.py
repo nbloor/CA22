@@ -1,5 +1,5 @@
 import streamlit as st
-import pandas as ps
+import pandas as pd
 import numpy as np
 
 st.title("Simple Streamlit App")
