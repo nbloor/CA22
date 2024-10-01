@@ -1,6 +1,6 @@
 import streamlit as st
 import pandas as ps
-import numpu as np
+import numpy as np
 
 st.title("Simple Streamlit App")
 
@@ -11,7 +11,7 @@ st.write(pd.DataFrame({
 }))
 
 if st.button('Say hello'):
-  st.write('Why hellow there'!)
+  st.write('Why hello there!)
 else:
   st.write('Goodbye')
 
@@ -19,4 +19,4 @@ char_data = pd.DataFrame(
   np.random = randn(20, 3),
   columns=['a', 'b', 'c'])
 
-st.line_chart(chart_data)
+st.line_chart(char_data)
